@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
     "lodash.chunk": "^4.2.0",
@@ -26,10 +25,6 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "flow-bin": "^0.79.1",
-    "jest": "23.5.0",
     "react-test-renderer": "^16.4.2"
-  },
-  "jest": {
-    "preset": "react-native"
   }
 }
